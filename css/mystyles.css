@@ -1,0 +1,124 @@
+/* mystyles.css */
+
+body {
+    font-family: sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-content {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    color: #007bff; /* Blue heading */
+}
+
+h2 {
+    color: #28a745; /* Green subheading */
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* centers the .container horizontally */
+    align-items: center;     /* centers vertically (optional) */
+    min-height: 100vh;
+    background-color: #f5f5f5; /* optional: background color */
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    text-align: center; /* centers text inside elements */
+}
+
+ul, ol {
+    text-align: center;
+    margin-left: 2em;
+}
+
+
+
+
+
+.container {
+    width: 100%;
+    max-width: none;
+    padding: 20px;
+}
+
+
+.tableau-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-left: 20px;  /* Adds padding on the left to move the chart to the right */
+}
+
+/* Center content */
+.container {
+    width: 80%;               /* Adjust width as needed */
+    margin: 0 auto;           /* Centers the container */
+    padding: 0 20px;          /* Adds space on the sides */
+}
+
+/* Style for the ordered list (numbered list) */
+ol {
+    padding-left: 40px;      /* Adjust the left padding to move the list inward */
+}
+
+/* Style for the unordered list (bullet list) */
+ul {
+    padding-left: 40px;      /* Adjust the left padding to move the list inward */
+}
+
+/* Style for the list items */
+ol li, ul li {
+    margin-bottom: 10px;      /* Adds space between list items */
+}
